@@ -1,0 +1,289 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.2rem;height:100%;}
+body,p,ul,ol,dl,dd,dt,p,h2,h3,h4,h5,h6{ margin:0; padding:0; font-size:0.14rem;text-indent:0;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+
+.main{width: 7.2rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.2rem;}
+/*头部*/
+.zg_header{
+	height: 0.5rem;
+	width: 100%;
+	background: #1b1b1b;
+}
+.logo{
+	width: 1.60rem;
+	height: 0.5rem;
+	margin-left: 0.1rem
+}
+.logo img{
+	width:1.60rem;
+	height: 0.5rem;
+}
+.phone{
+	font: bold 0.18rem/0.5rem "Microsoft YaHei";
+	margin-right: 0.1rem;
+	padding-left: 0.35rem;
+	background: url(../images/phone.png) no-repeat left center;
+	background-size: 0.26rem;
+}
+.phone a{
+	color: #fff;
+}
+
+.banner img{
+    display: block;
+    width:7.2rem;
+}
+.zg-main1{
+    overflow: hidden;
+    padding-bottom:1.06rem;
+    background: url("../images/m1.jpg") no-repeat bottom center #f8f8f8;
+}
+.main-tit{
+    margin-top:0.5rem;
+    text-align: center;
+    font-size:0;
+}
+.main-tit b{
+    display: block;
+    font: bold 0.4rem "微软雅黑";
+    color: #200402;
+}
+.main-tit em{
+    display: block;
+    font: normal 0.22rem "微软雅黑";
+    color: #200402;
+    margin-top:0.13rem;
+}
+.m1-cont1{
+    width:7rem;
+    height:16.33rem;
+    margin: 0.4rem auto 0;
+    overflow: hidden;
+    background: url("../images/m2.jpg") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+}
+.m1-cont1 > img{
+    display: block;
+    margin-left:0.42rem;
+    height:0.52rem;
+}
+.m1-cont1 > p{
+    margin-left:1.1rem;
+    font:normal 0.24rem/0.65rem "微软雅黑";
+    color: #fff;
+}
+.m1-cont1 div{
+    margin-left:1.1rem;
+    font-size:0;
+}
+.m1-cont1 div p{
+    font:normal 0.24rem/0.448rem "微软雅黑";
+    color: #fff;
+}
+.m1-cont1 div img{
+    display: inline-block;
+    width:0.42rem;
+    margin-right: 0.1rem;
+}
+.m1-cont1 div span{
+    color: #ffca6e;
+    font-weight:bold;
+    font-size:0.24rem;
+}
+.m1-cont1 div b{
+    display: block;
+    color: #ffca6e;
+    font-weight:bold;
+    font-size:0.24rem;
+}
+.m1-cont1 .prize{
+    display: block;
+    margin: 0.4rem auto;
+    width:6rem;
+    height:5.36rem;
+}
+.m1-cont2{
+    width:7rem;
+    height:8.53rem;
+    margin: 0.5rem auto 0;
+    background: url("../images/m12.jpg") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+    overflow: hidden;
+}
+.m1-cont2 ul{
+    margin-left:0.12rem;
+    margin-top:0.66rem;
+    overflow: hidden;
+}
+.m1-cont2 ul li{
+    float: left;
+    margin-left:0.1rem;
+    margin-top:0.3rem;
+}
+.m1-cont2 ul li a{
+    display: block;
+    width: 1.57rem;
+    height:0.6rem;
+    text-align: center;
+    font:normal 0.24rem/0.6rem "微软雅黑";
+    background: #ffca6e;
+}
+.zg-main2{
+    width:7.2rem;
+    padding-bottom:0.68rem;
+    background: url("../images/m13.jpg") no-repeat center top #260b06;
+    overflow: hidden;
+}
+.zg-main2 > a{
+    display: block;
+    width: 3.56rem;
+    height:0.58rem;
+    text-indent: -9999rem;
+    background: url("../images/m14.png") no-repeat center;
+    -webkit-background-size: 3.56rem;
+    background-size: 3.56rem;
+    margin: 0.42rem auto 0;
+}
+.m2-btn{
+    margin-top:0.5rem;
+    overflow: hidden;
+}
+.m2-btn li{
+    float: left;
+    margin-left:0.1rem;
+    width: 1.62rem;
+    height:0.48rem;
+    font:bold 0.28rem/0.48rem "微软雅黑";
+    text-align: center;
+    background: url("../images/m16.png") no-repeat center;
+    -webkit-background-size: 1.62rem;
+    background-size: 1.62rem;
+    color: #260b06;
+}
+.m2-btn li.on{
+    background: url("../images/m15.png") no-repeat center;
+    -webkit-background-size: 1.62rem;
+    background-size: 1.62rem;
+}
+
+.m2-show-wrap{
+    width:7rem;
+    margin: 0 auto;
+    background: #3c1109;
+    padding-bottom:0.64rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    display: none;
+}
+.m2-show{
+    margin-left:0.02rem;
+    margin-top:0.1rem;
+    overflow: hidden;
+}
+.m2-show li{
+    float: left;
+    margin-left:0.24rem;
+    margin-top:0.22rem;
+    width: 2.02rem;
+    height: 2.64rem;
+    background: #fff;
+    border-radius: 0.08rem;
+    overflow: hidden;
+}
+.m2-show li b:nth-child(1){
+    display: block;
+    width: 1.66rem;
+    height: 1.32rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 1.66rem;
+    background-size: 1.66rem;
+    margin: 0.15rem auto 0;
+    text-align: center;
+    font: bold 0.22rem/0.26rem "微软雅黑";
+    padding-top:0.06rem;
+    color: #260b06;
+}
+.m2-show li > span{
+    display: block;
+    margin-left:0.18rem;
+    font:normal 0.16rem/0.16rem "微软雅黑";
+    text-decoration: line-through;
+    margin-top:0.06rem;
+    color: #666666;
+}
+.m2-show li b:nth-child(3){
+    display: block;
+    font:bold 0.24rem/0.24rem "微软雅黑";
+    color: #ff3c53;
+    margin-top:0.04rem;
+    margin-left:0.18rem;
+}
+.m2-show li a{
+    display: block;
+    width: 1.67rem;
+    height: 0.47rem;
+    text-indent: -9999rem;
+    background: url("../images/m17.png") no-repeat center;
+    -webkit-background-size: 1.67rem;
+    background-size: 1.67rem;
+    margin: 0.05rem auto;
+}
+.zg-main2 > p{
+    text-align: center;
+    font:normal 0.2rem/0.96rem "微软雅黑";
+    color: #fff;
+}
+
+.fix{
+    width: 7.2rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 0.68rem;
+    z-index:999;
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 0.68rem;
+    font-size: 0.24rem;
+    color: #fff
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+    -webkit-background-size: 0.46rem;
+    background-size: 0.46rem;
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
+    -webkit-background-size: 0.61rem;
+    background-size: 0.61rem;
+}
+.zixun{
+    position: fixed;
+    right:0;
+    top:50%;
+    margin-top:-1.30rem;
+}
+.zixun a{
+    display: block;
+}
+.zixun a img{
+    width:0.78rem;
+}
